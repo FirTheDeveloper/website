@@ -5,31 +5,32 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
-    title: "Senior Frontend Engineer",
-    company: "Tech Innovations Inc.",
-    period: "2021 - Present",
+    title: "Engineer",
+    company: "Direct Retail Solutions",
+    period: "",
     description:
-      "Lead the frontend development team in building a SaaS platform. Implemented new features, improved performance, and mentored junior developers.",
+      "Responsible for rPOS, StarterV4, some of VoCoVo Link, and all of the Restocking System."
   },
   {
-    title: "Frontend Developer",
-    company: "Digital Solutions Co.",
-    period: "2019 - 2021",
+    title: "Contracted Developer",
+    company: "Bloxco",
+    period: "",
     description:
-      "Developed responsive web applications using React and TypeScript. Collaborated with designers and backend engineers to deliver high-quality products.",
+      "Not a whole lot.",
   },
   {
-    title: "Web Developer",
-    company: "Creative Agency",
-    period: "2017 - 2019",
+    title: "Development Director",
+    company: "King's Game Group",
+    period: "",
     description:
-      "Built websites and web applications for various clients. Worked with HTML, CSS, JavaScript, and WordPress.",
+      "Led Development.",
   },
   {
-    title: "Intern",
-    company: "Startup Hub",
-    period: "2016 - 2017",
-    description: "Assisted in developing web applications and learned modern web development practices.",
+    title: "Head Developer",
+    company: "Henry's Cafe",
+    period: "",
+    description:
+      "Responsible for literally everything they used prior to May 2026.",
   },
 ]
 
@@ -62,7 +63,7 @@ export function Timeline() {
               <div className="relative">
                 <h3 className="text-xl font-bold">{experience.title}</h3>
                 <div className="text-zinc-400 mb-4">
-                  {experience.company} | {experience.period}
+                  {experience.company}
                 </div>
                 <p className="text-zinc-300">{experience.description}</p>
               </div>
